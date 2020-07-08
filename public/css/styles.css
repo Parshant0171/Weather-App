@@ -1,13 +1,18 @@
 body {
-    color: #333333;
+    color: rgb(64, 143, 0);
     font-family: arial;
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
+    background: url(../img/tree.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     display: flex;
     flex-direction: column;
-    min-height: 100vh
+    min-height: 70vh
 }
 
 .main-content {
@@ -15,10 +20,15 @@ body {
 }
 
 footer {
-    color: #888888;
-    border-top: 1px solid #eeeeee;
+    color: rgb(0, 255, 0);
+    /*border-top: 1px solid #eeeeee;*/
+    border-top: 1px solid yellow;
+    width: 400px;
     margin-top: 16px;
-    padding: 16px 0;
+    padding: 10px 0 16px 0;
+}
+p1{
+    padding-bottom: 16px;
 }
 
 header {
